@@ -1,0 +1,14 @@
+var c=a.Array;
+var d=a.isNaN;
+var e=a.JSON.stringify;
+var f;
+var g;
+var h=b.ImportNow("promise_state_symbol");
+var i=b.ImportNow("promise_result_symbol");
+var j;
+var k;
+b.Import(function(l){
+f=l.MapEntries;
+g=l.MapIteratorNext;
+j=l.SetIteratorNext;
+k=l.SetValues;
